@@ -70,7 +70,7 @@ const Dashboard: React.FC = () => {
       {/* Header */}
       <div className="card">
         <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#111827', margin: 0 }}>
-          Olá, {user?.nome}! 👋
+          Olá, {user?.nome}! 
         </h1>
         <p style={{ margin: '8px 0 0 0', color: '#6b7280' }}>
           Bem-vindo ao seu painel de controle doméstico
@@ -203,25 +203,25 @@ const Dashboard: React.FC = () => {
         <h2 className="card-title">Ações Rápidas</h2>
         <div className="action-grid">
           <Link to="/imoveis" className="action-card">
-            <div className="action-icon">🏘️</div>
+            <div className="action-icon"></div>
             <h3 className="action-title">Gerenciar Imóveis</h3>
             <p className="action-description">Adicionar ou editar imóveis</p>
           </Link>
           
           <Link to="/contas" className="action-card">
-            <div className="action-icon">💰</div>
+            <div className="action-icon"></div>
             <h3 className="action-title">Nova Conta</h3>
             <p className="action-description">Adicionar conta a pagar</p>
           </Link>
           
           <Link to="/problemas" className="action-card">
-            <div className="action-icon">🔧</div>
+            <div className="action-icon"></div>
             <h3 className="action-title">Reportar Problema</h3>
             <p className="action-description">Registrar problema no imóvel</p>
           </Link>
           
           <Link to="/estoque" className="action-card">
-            <div className="action-icon">📦</div>
+            <div className="action-icon"></div>
             <h3 className="action-title">Adicionar Item</h3>
             <p className="action-description">Adicionar item ao estoque</p>
           </Link>

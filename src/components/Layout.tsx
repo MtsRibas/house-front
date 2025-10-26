@@ -18,11 +18,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   };
 
   const navigation = [
-    { name: 'Dashboard', href: '/dashboard', icon: '🏠' },
-    { name: 'Imóveis', href: '/imoveis', icon: '🏘️' },
-    { name: 'Contas', href: '/contas', icon: '💰' },
-    { name: 'Problemas', href: '/problemas', icon: '🔧' },
-    { name: 'Estoque', href: '/estoque', icon: '📦' },
+    { name: 'Dashboard', href: '/dashboard', icon: '' },
+    { name: 'Imóveis', href: '/imoveis', icon: '' },
+    { name: 'Contas', href: '/contas', icon: '' },
+    { name: 'Problemas', href: '/problemas', icon: '' },
+    { name: 'Estoque', href: '/estoque', icon: '' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -32,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Sidebar */}
       <div className="sidebar">
         <div className="sidebar-header">
-          <h1 className="sidebar-title">House Manager</h1>
+          <h1 className="sidebar-title">OH</h1>
         </div>
         
         <nav className="sidebar-nav">
